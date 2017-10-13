@@ -10,7 +10,7 @@ public class Test {
 		try {
 			java.util.Date d = new java.text.SimpleDateFormat("yyyyMMddHHmmss").parse(day);
 			
-			long milli = d.getTime();
+			long milli = d.getTime();//추가
 			
 			System.out.println("d:"+d);
 			
